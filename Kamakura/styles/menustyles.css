@@ -1,0 +1,151 @@
+/* Lucia Espinoza     Web 150 ASN6     Business name: Kamakura */
+
+body {
+  background-image: url(../images/AdobeStock_295529841.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFF;;
+  min-width: 250px;
+  max-width: 1700px;
+  font-family: 'Lato', sans-serif, helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Navigation */
+nav {
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  font-size: 22px;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+nav a {
+  color: #FFF;
+  padding: 22px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Economica, 'helvetica narrow', 'arial narrow';
+}
+
+nav a:hover {
+  color:  #797c7a;
+
+
+}
+/* Header */
+header {
+  background-color: transparent;
+  font-family: 'open sans', rockwell, cursive;
+  text-align: center;
+  color: #FFF;
+  padding-top: 27%;
+  padding-bottom: 8%;
+
+}
+
+img {
+  width: 50%;
+  padding-bottom: 1%;
+  margin-left: -35px;
+}
+
+/*restaurant info*/
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+
+section {
+  background-color: #2f2f2f;
+  text-align: center;
+  padding: 1% 5%;
+  width: 400px;
+}
+
+main {
+  background-color: #000;
+  color: #FFF;
+  padding: 2% 2%;
+}
+
+main h2 {
+  font-family: economica;
+  padding-bottom: 1%;
+  background-color: #000;
+  text-align: center;
+}
+
+
+main a {
+  font-family: economica;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+}
+
+main a:hover {
+  color:  #a51e21;
+}
+
+section p {
+  font-family: 'open sans';
+  font-size: 18px;
+}
+
+main h1 {
+  font-family: 'open sans', sans-serif, helvetica, sans-serif;
+}
+
+div.sushi {
+max-width: 100%;
+height: auto;
+margin-left: 600px;
+}
+
+
+/* footer */
+footer {
+  padding: 30px;
+  text-align: center;
+  font-family: Economica, 'helvetica narrow', 'arial narrow';
+  font-size: 20px;
+  color: #FFF;
+  background:   #a51e21;
+}
+
+li {
+  list-style:none;
+  margin: 0px 0px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 19px 10px;
+  color: #FFF;
+  
+}
+
+div.icons {
+  margin-left: -38px;
+}
+
+@media screen and (max-width: 700px) and (min-width: 520px) {
+  
+  .header {
+    min-height: 200px;
+  }
+}
+/* end @media */
+
